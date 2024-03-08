@@ -38,7 +38,7 @@ function addIfEven(num) {
     if (num % 2 === 0) {
         return num + 5;
     }
-    return num;
+    return addIfEven(num);
 }
 
 
@@ -82,7 +82,7 @@ function displayEvenNumbers() {
     const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     const evenNumbers = [];
     for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] % 2 == 0) {
+        if (numbers[i] % 2 === 0) {
             evenNumbers.push(numbers[i]);
         }
         
