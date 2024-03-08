@@ -12,9 +12,9 @@
 
 ///////////////////////////// ESERCIZIO 1
 // SBAGLIATO
-for (let i = 0; i > 5; i++) {
-    console.log(i);
-}
+// for (let i = 0; i > 5; i++) {
+//     console.log(i);
+// }
 
 // GIUSTO
 for (let i = 0; i < 5; i++) {
