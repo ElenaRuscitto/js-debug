@@ -54,3 +54,9 @@ Dentro ai file ZIP allegati troverete diversi files contenenti del codice javasc
 --- 3 ---
 1. con il prompt si chiede un numero all'utente e viene sommato a 12. restituisce il risultato finale dell'addizione
 2. manca il parseInt nel prompt. poichè senza quest'ultimo al numero scritto dall'utente viene aggiunto al 12. con il parseint invece li somma
+3. no
+
+ --- 4 ---
+ 1. controlla se la mail inserita dall'utente ha l'accesso consentito o negato, in base a se la mail fa parte degli indirizzi mail presenti nell'array "addresses"
+ 2. i Booleani non sono stringhe, quindi non vanno scritti con gli apici
+ 3. no

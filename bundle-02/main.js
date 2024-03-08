@@ -94,7 +94,23 @@ addNumbers();
 // checkAccess();
 
 // GIUSTO
+function checkAccess() {
+    const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
+    const userEmail = prompt('Inserisci il tuo indirizzo email');
 
+    let grantAccess = false;
+
+    if (addresses.includes(userEmail)) {
+        grantAccess = true;
+    }
+
+    if (grantAccess === true) {
+        console.log('Accesso consentito!');
+    } else {
+        console.log('Accesso negato!');
+    }
+}
+checkAccess();
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 // SBAGLIATO
