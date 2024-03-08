@@ -66,3 +66,15 @@ Dentro ai file ZIP allegati troverete diversi files contenenti del codice javasc
  1. controlla se la mail inserita dall'utente ha l'accesso consentito o negato, in base a se la mail fa parte degli indirizzi mail presenti nell'array "addresses". in più c'è un controllo ulteriore sulla lunghezza di lettere inserite dall'utente. i caratteri devono essere >5
  2. manca la } alla chiusura della function
  3. no
+
+
+   - bundle 3:
+ --- 1 ---
+ 1. l'array di oggetti (macchine) contengono diversi tipi di macchine. in 'gasolineCars" vengono salvete le auto che vanno a gasolio, in "dieselCars" vengono salvete le auto che vanno a disel restituendo il messaggio di appartenenza alla classe di auto a "benzina", a "disel" o "altre auto"
+ 2. si:
+   - manca una "," alla riga 136,
+   - c'è una "," di troppo a riga 141 
+   - a riga 144 array function è stato scrritto male =>
+   - in riga 144 devono esereci 2 uguali, non 3
+   - in riga 147 devono esereci 2 uguali, non 3
+   - è con & non |, poichè l'auto non deve essere ne a benzina ne disel
