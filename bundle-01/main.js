@@ -25,12 +25,12 @@ for (let i = 0; i < 5; i++) {
 
 ///////////////////////////// ESERCIZIO 2
 // SBAGLIATO
-function addIfEven(num) {
-    if (num % 2 = 0) {
-        return num + 5;
-    }
-    return num;
-}
+// function addIfEven(num) {
+//     if (num % 2 = 0) {
+//         return num + 5;
+//     }
+//     return num;
+// }
 
 
 // GIUSTO
@@ -45,11 +45,21 @@ function addIfEven(num) {
 
 
 ////////////////////////////// ESERCIZIO 3
+
+// SBAGLIATO
 // function loopToFive() {
 //     for (let i = 0, i < 5, i++) {
 //         console.log(i);
 //     }
 // }
+
+
+// GIUSTO
+function loopToFive() {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }
+}
 
 
 ////////////////////////////// ESERCIZIO 4 (suggerimento: ci sono 7 errori)

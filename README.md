@@ -16,3 +16,9 @@ Dentro ai file ZIP allegati troverete diversi files contenenti del codice javasc
 1. la condizione accetta il numero se è pari, lo somma a 5. se è dispari ritorna il numero originario
 2. si, alla condizione mancano 2 uguali poichè ce ne sta solo 1
 3. no
+
+
+--- 3 ---
+1. cicla partendo da 0 per 5 volte l'indice
+2. nella consizione i parametri sono separati da "," e non da ";"
+3. no
