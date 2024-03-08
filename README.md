@@ -60,3 +60,9 @@ Dentro ai file ZIP allegati troverete diversi files contenenti del codice javasc
  1. controlla se la mail inserita dall'utente ha l'accesso consentito o negato, in base a se la mail fa parte degli indirizzi mail presenti nell'array "addresses"
  2. i Booleani non sono stringhe, quindi non vanno scritti con gli apici
  3. no
+
+
+  --- 5 ---
+ 1. controlla se la mail inserita dall'utente ha l'accesso consentito o negato, in base a se la mail fa parte degli indirizzi mail presenti nell'array "addresses". in più c'è un controllo ulteriore sulla lunghezza di lettere inserite dall'utente. i caratteri devono essere >5
+ 2. manca la } alla chiusura della function
+ 3. no
