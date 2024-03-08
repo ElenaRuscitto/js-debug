@@ -22,3 +22,18 @@ Dentro ai file ZIP allegati troverete diversi files contenenti del codice javasc
 1. cicla partendo da 0 per 5 volte l'indice
 2. nella consizione i parametri sono separati da "," e non da ";"
 3. no
+
+
+--- 4 ---
+1. pusha in un array (evenNumbers) i numeri pari dell'arry (numbers)
+2. si, sono 4:
+  - i l' array devono essere "const"
+  - il ";" dopo l'indice incrementato
+  - manca un "=" nell' if
+  - c'è un  ";" tra la ) e l'apertura della { nell'if
+
+3. si, sono 3:
+  - nell'if bisogna prendere l'indice di numbers
+  - bisogna levare il "-1" a numbers.length, altrimenti ci restituisce solo 2, 4, 6. altrimenti si poteva scrivere <=
+  - il push deve essere dell'indice di numbers
+  - il return deve essere fuori dal For
