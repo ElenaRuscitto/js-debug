@@ -10,22 +10,41 @@
 *******************************************************************************/
 
 
-// ESERCIZIO 1
+///////////////////////////// ESERCIZIO 1
+// SBAGLIATO
+for (let i = 0; i > 5; i++) {
+    console.log(i);
+}
+
+// GIUSTO
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
 
 
-// ESERCIZIO 2
-// function addIfEven(num) {
-//     if (num % 2 = 0) {
-//         return num + 5;
-//     }
-//     return num;
-// }
+
+///////////////////////////// ESERCIZIO 2
+// SBAGLIATO
+function addIfEven(num) {
+    if (num % 2 = 0) {
+        return num + 5;
+    }
+    return num;
+}
 
 
-// ESERCIZIO 3
+// GIUSTO
+function addIfEven(num) {
+    if (num % 2 === 0) {
+        return num + 5;
+    }
+    return num;
+}
+
+
+
+
+////////////////////////////// ESERCIZIO 3
 // function loopToFive() {
 //     for (let i = 0, i < 5, i++) {
 //         console.log(i);
@@ -33,7 +52,7 @@ for (let i = 0; i < 5; i++) {
 // }
 
 
-// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
+////////////////////////////// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 // function displayEvenNumbers() {
 //     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 //     let evenNumbers = [];
